@@ -1,0 +1,12 @@
+def reverse_string_in_place(input_str):
+    str_list = list(input_str)
+    str_list.reverse()
+    reversed_str = ''.join(str_list)
+    return reversed_str
+
+# Example usage:
+original_string = "Hello, World!"
+reversed_string = reverse_string_in_place(original_string)
+
+print("Original String:", original_string)
+print("Reversed String (in-place):", reversed_string)
