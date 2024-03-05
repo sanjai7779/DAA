@@ -1,0 +1,5 @@
+original_string = "Hello, World!"
+copied_string = str(original_string)
+
+print("Original String:", original_string)
+print("Copied String:", copied_string)
